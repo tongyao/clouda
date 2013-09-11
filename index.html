@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Clouda by tongyao</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Clouda</h1>
+        <h2>Codename sumeru</h2>
+        <a href="https://github.com/tongyao/sumeru" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p><a href="http://travis-ci.org/brandnewera/sumeru"><img src="https://secure.travis-ci.org/brandnewera/sumeru.png" alt="Build Status"></a>
+<a href="https://gemnasium.com/brandnewera/sumeru"><img src="https://gemnasium.com/brandnewera/sumeru.png" alt="Dependency Status"></a>
+<a href="https://coveralls.io/r/brandnewera/sumeru"><img src="https://coveralls.io/repos/brandnewera/sumeru/badge.png" alt="Coverage Status"></a></p>
+
+<h2>
+<a name="what-is-sumeru-framework" class="anchor" href="#what-is-sumeru-framework"><span class="octicon octicon-link"></span></a>What is Sumeru Framework?</h2>
+
+<p>Sumeru Framework, a simple but powerful Web App framework, provides rich functionalities for building de-facto Web Applications based on cloud technology. Sumeru framework offers awesome features such as data-unify, adaptive feedback, realtime network connection etc. Developers beneﬁts from Sumeru Framework in terms of coding efforts, performance and application distribution.</p>
+
+<h2>
+<a name="live-demo-manage-to-do-lists-across-multiple-devices" class="anchor" href="#live-demo-manage-to-do-lists-across-multiple-devices"><span class="octicon octicon-link"></span></a>Live Demo: Manage To-Do Lists Across Multiple Devices</h2>
+
+<p><img src="docs/images/devices.png" alt=""></p>
+
+<p><a href="http://sumerutodolist.duapp.com">Click and use multiple devices/browsers simultaneously to tryout the live demo with realtime sync of To-Do Lists</a></p>
+
+<p><a href="http://v.youku.com/v_show/id_XNTI5NzcxNTcy.html">Click to see a live video ====&gt;</a> 
+<img src="docs/images/youkuvideo.png" alt=""></p>
+
+<h2>
+<a name="how-to-install-and-run-sumeru" class="anchor" href="#how-to-install-and-run-sumeru"><span class="octicon octicon-link"></span></a>How to install and run sumeru</h2>
+
+<h3>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h3>
+
+<pre><code>npm install -g sumeru
+</code></pre>
+
+<h3>
+<a name="init-a-sumeru-project" class="anchor" href="#init-a-sumeru-project"><span class="octicon octicon-link"></span></a>Init a sumeru project</h3>
+
+<pre><code>sumeru init ./myproject
+</code></pre>
+
+<h3>
+<a name="run-sumeru" class="anchor" href="#run-sumeru"><span class="octicon octicon-link"></span></a>Run sumeru</h3>
+
+<pre><code>cd myproject
+
+sumeru start
+</code></pre>
+
+<h2>
+<a name="how-to-update-existing-installation-to-the-lastest-version" class="anchor" href="#how-to-update-existing-installation-to-the-lastest-version"><span class="octicon octicon-link"></span></a>How to update existing installation to the lastest version</h2>
+
+<h3>
+<a name="check-current-installed-version" class="anchor" href="#check-current-installed-version"><span class="octicon octicon-link"></span></a>Check current installed version</h3>
+
+<pre><code>npm ls -g sumeru
+</code></pre>
+
+<p>or</p>
+
+<pre><code>grep '"version"' /usr/local/lib/node_modules/sumeru/package.json
+</code></pre>
+
+<h3>
+<a name="check-the-up-to-date-version-number" class="anchor" href="#check-the-up-to-date-version-number"><span class="octicon octicon-link"></span></a>Check the up-to-date version number</h3>
+
+<pre><code>npm view sumeru version
+</code></pre>
+
+<h3>
+<a name="update-sumeru" class="anchor" href="#update-sumeru"><span class="octicon octicon-link"></span></a>Update sumeru</h3>
+
+<pre><code>npm update -g sumeru
+</code></pre>
+
+<h3>
+<a name="update-existing-project-to-use-the-lastest-version-with-auto-backup-of-course" class="anchor" href="#update-existing-project-to-use-the-lastest-version-with-auto-backup-of-course"><span class="octicon octicon-link"></span></a>Update existing project to use the lastest version (with auto backup, of course)</h3>
+
+<pre><code>sumeru update ./myproject
+
+or
+
+sudo sumeru update ./myproject
+</code></pre>
+
+<h2>
+<a name="documents" class="anchor" href="#documents"><span class="octicon octicon-link"></span></a>Documents</h2>
+
+<p>Step1: <a href="https://github.com/brandnewera/sumeru/blob/master/docs/step1_getting_started.md">Getting Started</a></p>
+
+<p>Step2: <a href="https://github.com/brandnewera/sumeru/blob/master/docs/step2_your_first_app.md">Your First App</a></p>
+
+<p>Step3: <a href="https://github.com/brandnewera/sumeru/blob/master/docs/step3_overview.md">Overview</a></p>
+
+<p>Step4: <a href="https://github.com/brandnewera/sumeru/blob/master/docs/step4_API_Documentation.md">API Documentation</a></p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/tongyao/sumeru/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/tongyao/sumeru/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/tongyao/sumeru"></a> is maintained by <a href="https://github.com/tongyao">tongyao</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
